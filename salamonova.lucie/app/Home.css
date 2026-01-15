@@ -1,0 +1,188 @@
+.section-container-Hero{
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('/kavarna-ls.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.Hero-Banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,0.7);
+    padding: 60px;
+    border-radius: 35px;
+}
+
+.Hero-Title{
+    font-size: 4.3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Hero-SubTitle{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+    color: #f0f0f0;
+}
+
+.Hero-Button{
+    background-color: #C4A484;
+    color: #3B2F2F;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: transform 0.2s, background 0.2s;
+    display: inline-block;
+}
+
+.Hero-Button:hover{
+    background-color: #fff;
+    transform: scale(1.05);
+}
+
+.section-container-num {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background: #F5F5DC;
+}
+
+.section-container-sec {
+    width: 100%;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background: #E8E3C5;
+}
+
+.text-block {
+    max-width: 700px;
+    text-align: center;
+}
+
+.text-block h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #3B2F2F;
+    margin-bottom: 25px;
+}
+
+.text-block p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #3B2F2F;
+    margin: 0 auto;
+    max-width: 580px;
+}
+
+.text-block h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #3B2F2F;
+}
+
+.features-list {
+    max-width: 500px;
+    background: rgba(255,255,255,0.05);
+    padding: 40px 50px;
+    border-radius: 25px;
+    backdrop-filter: blur(4px);
+}
+
+.features-list h3 {
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+    color: #3B2F2F;
+    text-align: center;
+}
+
+.features-list ul {
+    list-style: none;
+    padding: 25px;
+    border-radius: 25px;
+    margin: 0;
+    background: #F5F5DC;
+}
+
+.features-list li {
+    font-size: 1.05rem;
+    color: #3B2F2F;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.features-list li:last-child {
+    border-bottom: none;
+}
+.secondary-btn{
+    display: inline-block;
+    border: 2px solid #3B2F2F;
+    color: #3B2F2F;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+.secondary-btn:hover{
+    background-color: #3B2F2F;
+    color: white;
+}
+
+.Image-Visuals {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.Image-Card {
+    flex: 1;
+    min-width: 300px;
+    text-align: center;
+}
+
+.Card-Img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: 1px solid #3B2F2F;
+
+
+    transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+    will-change: transform, box-shadow;
+}
+
+.Card-Img:hover{
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    transform: translateY(-15px) scale(1.03);
+    border-color: #F5F5DC;
+    cursor: pointer;
+}
+
+.Image-Content{
+    color: #3B2F2F;
+}

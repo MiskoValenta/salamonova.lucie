@@ -1,0 +1,154 @@
+.page-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background: #F5F5DC;
+}
+
+.Background-nabidka{
+    background: #F5F5DC;
+}
+
+.intro-text h1 {
+    text-align: center;
+    color: #3B2F2F;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.intro-text p {
+    color: #3B2F2F;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.menu-card {
+    background-color: #FFF;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #E8E3C5;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.card-image {
+    height: 200px;
+    width: 100%;
+    background-color: #ddd;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.content-block-title{
+    color: #3B2F2F;
+}
+
+.content-block-subtitle{
+    color: #3B2F2F;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+}
+
+.card-header h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    color: #3B2F2F;
+}
+
+.card-header .price {
+    font-weight: bold;
+    color: #C4A484;
+    font-size: 1.1rem;
+}
+
+.card-desc {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+.card-btn {
+    background-color: transparent;
+    border: 2px solid #3B2F2F;
+    color: #3B2F2F;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.btn-link{
+    text-decoration: none;
+    color: #3B2F2F;
+}
+
+.card-btn:hover .btn-link {
+    color: white;
+
+}
+
+.card-btn:hover {
+    background-color: #3B2F2F;
+}
+
+.content-block {
+    margin-top: 60px;
+    border-top: 2px solid #E8E3C5;
+    padding-top: 40px;
+}
+
+.single-image img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.list-container h3{
+    color: #3B2F2F;
+    margin-top: 30px;
+}
+.list-container ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #3B2F2F;
+}
